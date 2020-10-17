@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>Today's Weather</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Weather</h1>
+    </div>
+
+    <div class="user-input-container">
+        <h1>Insert the name of the city: </h1>       
+        <input type="text" id="user_input" placeholder="City name..."/>    
+    </div>
+
+    <div class="button">
+        <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div class="results">
+        <h1 id="temp">Here will be the results</h1>
+    </div>
+    
+
+</body>
+</html>
